@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Fuentes*/
+
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.servicios-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.serv {
+    margin-bottom: 20px;
+}
+
+
+.form {
+    padding: 20px 20px 20px 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+.texto {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#mapa {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.boton:hover {
+    transform: scale(1.2);
+    border:solid rgb(108, 121, 195) 3px 
+}
+
+.preguntas:hover {
+    text-decoration: underline 2px;
+    font-weight: bold;
+}
+
+.disclaimer {
+    display: none;
+}
+
+.body-container {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "titulo titulo"
+    "imagen texto"
+    "footer footer";
+}
+
+#header{
+    grid-area: header;
+}
+
+#titulo {
+    grid-area: titulo;
+}
+
+#imagen {
+    grid-area: imagen;
+}
+
+#texto {
+    grid-area: texto;
+    display: flex;
+}
+
+#footer {
+    grid-area: footer;
+    background-color: #f8f9fa;
+}
+
+.img2 {
+    display: flex;
+    margin: 20px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.footer-container {
+    background-color: #f8f9fa;
+    width: 100%;
+    position:absolute;
+}
+
+.li {
+    display: inline;
+}
+
+.ul {
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.carrusel {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/*# sourceMappingURL=style.css.map */
